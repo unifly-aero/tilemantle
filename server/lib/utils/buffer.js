@@ -1,6 +1,6 @@
 var fs = require('fs');
 var tmp = require('tmp');
-var gdal = require('gdal');
+var gdal = require('gdal-async');
 gdal.verbose();
 
 module.exports = function(geom, degrees, callback) {
